@@ -1,0 +1,29 @@
+Colan Biemer
+Unity Project Manager
+CS 338
+
+ant build file: build.xml
+
+to run:
+ant build
+ant run
+
+all code is in: src
+(didn't rename to proejct for the sake of eclipse and all that)
+
+FileUtils from apache is used to find all the files with the proper extension. Downloaded it off the web.
+
+I do not know what will happen if you run this on tux, but I imagine it will be looking for unity scenes 
+for a while until it reaches the end of every file. I also doubt any unity projects exists on tux, but
+I've been wrong before.
+
+I changed the design to include the open button and removed the expanding jlist, because I figured the
+amount of buttons could become far too large depending on the size of the game. To compensate I took
+advantage of the JComboBox which is perfect for the exact issue. 
+
+The one thing I wasn't able to put into the project which I wish i had the time to do so was sorting the
+table entries by the date modified rather than the name. It is more than possible with the code and 
+information inside of a Scene, but I didn't figure out the best way to go about it in time. So instead
+I just sorted it by name. Should I ever go back to this project, that is probably where I'll start.
+
+Any questions, feel free to email me at cfb43@drexel.edu
